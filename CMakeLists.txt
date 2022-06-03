@@ -1,0 +1,44 @@
+cmake_minimum_required(VERSION 3.21)
+project(src)
+
+set(CMAKE_CXX_STANDARD 14)
+#### School
+#add_executable(src lab0/lab0.cpp)
+#add_executable(src ice1/Date.cpp ice1/Date.cpp ice1/ice1.cpp main.cpp)
+#add_executable(src ice2/BookList.h ice2/MemberList.h ice2/RatingList.h)
+#add_executable(src lab1/lab1.cpp)
+#add_executable(src lab2/BookList.cpp lab2/BookList.h lab2/lab2.cpp)
+#add_executable(src week2/recursion/recursion1.cpp)
+#add_executable(src ice3/ice3.cpp)
+#add_executable(src ice4/ice4.cpp ice4/ice4.cpp)
+#add_executable(src p1/p1.cpp p1/BookList.h p1/BookList.cpp p1/MemberList.cpp p1/MemberList.h p1/RatingList.cpp p1/RatingList.h)
+#add_executable(src Week2/3_LinkedList_ex1/main.cpp)
+#add_executable(src ice6-files/main.cpp ice6-files/IntList.cpp ice6-files/IntList.h)
+#add_executable(src ice6/DynamicList.h ice6/ice6.cpp)
+#add_executable(src p1x/p1x.cpp p1x/BookList.cpp p1x/BookList.h p1x/MemberList.h p1x/MemberList.cpp p1x/RatingList.h p1x/RatingList.cpp)
+#add_executable(src lab3/lab3.cpp)
+#add_executable(src Week3/2_IntList/DynamicList.h Week3/2_IntList/main.cpp)
+#add_executable(src p2ees/BSTx.h p2ees/p2ees.cpp p2ees/BST1.h p2ees/p2re.cpp)
+#add_executable(src lab5/lab5.cpp lab5/sort.h)
+#add_executable(src ice11/FeetInches.cpp ice11/FeetInches.h ice11/ice11.cpp)
+#add_executable(src p2/BSTx.h p2/p2.cpp)
+#add_executable(src p2ex/BSTx.h p2ex/p2x.cpp)
+add_executable(src lab6/HashTable.h lab6/lab6.cpp)
+#add_executable(src p3/p3.cpp p3/Patient.h p3/PatientPriorityQueue.h)
+#add_executable(src p3x/p3x.cpp p3x/Patient.h p3x/PatientPriorityQueuex.h p3x/testPatient.cpp p3x/testPriorityQueue.cpp)
+
+
+
+
+#### self study
+#add_executable(src "Study/week2/example1.cpp" Study/week2/example1.cpp Study/week2/example2.cpp)
+#add_executable(src "Study/week2/example2.cpp")
+#add_executable(src "Study/dynamic arrays/oneDarr.cpp")
+#add_executable(src "Study/dynamic arrays/twoDarr.cpp")
+#add_executable(src Study/trees/treeTraversal.cpp)
+#add_executable(src Study/List/List.cpp Study/List/List.h Study/List/main.cpp Study/List/intList.h)
+#add_executable(src Study/BST/BST_example1.cpp Study/BST/BST_example1.h)
+#add_executable(src Study/sorting/main.cpp Study/sorting/main.h Study/sorting/InsertionSort.cpp)
+
+#### Lectures
+#add_executable(src Christian/example3.cpp)

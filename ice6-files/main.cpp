@@ -1,0 +1,56 @@
+// Sheila Oh
+// File: main.cpp
+// Date: 9/15/20
+
+#include "IntList.h"
+#include <iostream>
+using namespace std;
+
+void printListState(const IntList &);
+void printIndex(int, int);
+
+int main() {
+    const int SIZE = 5;
+    IntList numbers(SIZE);
+
+    // print List state
+    printListState(numbers);
+
+    // populate array
+    for (int x = 1; x <= SIZE; x++)
+        numbers.add(x);
+
+    // print List state again
+    printListState(numbers);
+
+    // find value 5 and 20
+    int val = 5;
+    int index = numbers.get(val);
+    printIndex(val, index);
+    index = numbers.get(SIZE);
+    printIndex(SIZE, index);
+
+    IntList numbers2(numbers); // calls the copy constructor
+    IntList numbers3(SIZE);    // calls constructor
+    numbers3 = numbers;        // calls the overloaded = operator
+
+    // the destructor is automatically called when the IntList object
+    // goes out of range; you cannot and should not call the destructor!
+
+    return 0;
+}
+
+void printListState(const IntList &obj) {
+    if (obj.empty())
+        cout << "List is empty";
+    else
+        cout << "List is not empty";
+    cout << " and has a size of " << obj.size() << endl;
+}
+
+void printIndex(int val, int index) {
+    if (index == -1)
+        cout << val << " not found!" << endl;
+    else
+        cout << val << " found at index " << index << endl;
+}

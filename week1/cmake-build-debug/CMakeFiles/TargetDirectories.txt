@@ -1,0 +1,3 @@
+/Users/admin/Documents/SeattleU/cpsc5005/src/week1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/admin/Documents/SeattleU/cpsc5005/src/week1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/admin/Documents/SeattleU/cpsc5005/src/week1/cmake-build-debug/CMakeFiles/week1.dir

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b3a90c9f-3f02-49f6-bb32-e8757740f364" name="cs1" url="http://cs1.seattleu.edu">
+        <fileTransfer rootFolder="/home/st/unwoke" accessType="SFTP" host="cs1.seattleu.edu" port="22" sshConfigId="ea4a57c8-ff33-4aa1-9bc4-8bc97bb9b57b" sshConfig="unwoke@cs1.seattleu.edu:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
