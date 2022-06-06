@@ -158,6 +158,6 @@ bool HashTable::empty() const{
 
 int HashTable::hashFunction(int key, int probing) const{
     // cap -1 because 0 % cap = cap, which is index-out of bounds
-    return ((key + probing) % (cap -1));
+    return ((key + probing) % (cap));
 }
 #endif //SRC_HASHTABLE_H

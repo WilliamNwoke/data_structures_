@@ -26,8 +26,7 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(src lab6/HashTable.h lab6/lab6.cpp)
 #add_executable(src p3/p3.cpp p3/Patient.h p3/PatientPriorityQueue.h)
 #add_executable(src p3x/p3x.cpp p3x/Patient.h p3x/PatientPriorityQueuex.h p3x/testPatient.cpp p3x/testPriorityQueue.cpp)
-
-
+#add_executable(src lab7/Huffman.cpp lab7/Huffman.h lab7/lab7.cpp lab7/BST.h)
 
 
 #### self study

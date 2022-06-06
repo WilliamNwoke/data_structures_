@@ -106,7 +106,7 @@ unsigned int randomNum(){
 }
 
 void testContains(HashTable &hash, int key){
-    std::cout<< "contains(" << key << " ): " << hash.contains(key) << std::endl;
+    std::cout<< "contains(" << key << " ): " << boolalpha << hash.contains(key) << std::endl;
 }
 
 void testGet(HashTable &hash, int key){
