@@ -44,7 +44,7 @@ public:
 
         //Checks if this object is the same as the other object that is on the
         // other side of the operator
-        if(this != &rhs) {
+        if(head != &rhs) {
 
             //If it is delete the current tree
             destroyTree(root);

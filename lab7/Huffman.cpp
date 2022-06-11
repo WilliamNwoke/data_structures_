@@ -3,7 +3,9 @@
 //
 
 #include "Huffman.h"
-#include "Huffman.h"
+#include <map>
+
+using namespace std;
 
 bool Huffman::createCodeTree(string filename) {
     std::priority_queue<
@@ -25,6 +27,8 @@ bool Huffman::createCodeTree(string filename) {
     }
     infile.close();
 
+
+
     // **************************************************************
     // TODO: createCodeTree - add code here
     //  1. Count occurrences of every letter or symbol that you care about in
@@ -36,7 +40,28 @@ bool Huffman::createCodeTree(string filename) {
 
 
 
+
     // **************************************************************
+
+
+    std::map<char, int> order;
+
+    for (auto ch: allText){
+        order[ch]++;
+    }
+
+    for (auto pair : order){
+        CharFreq * charNode = new CharFreq();
+
+        charNode->letter = pair.first;
+        charNode->frequency = pair.second;
+        BSTNode * myNode = new BSTNode(charNode, nullptr, nullptr);
+        root = myNode;
+
+
+    }
+
+
 
     return true;
 }
@@ -68,6 +93,7 @@ bool Huffman::encodeFile(string originalFilename, string outputFilename) {
         // **************************************************************
         // TODO: encodeFile - add your code here
         //  add the appropriate encoding for allText[i] to currentStream
+        allText[i];
 
         currentStream += ""; // may need to update this line
 
@@ -126,9 +152,10 @@ int Huffman::traverseAndPrint(string &bits, int i, BSTNode *cur) {
     //  - cur represents the cur node in your tree
     //  Don't forget that you need to keep going after printing out a character
     //  (which means restarting at the top of the tree)
-a
+
 
     // **************************************************************
+//    if
 
     return -1;
 }

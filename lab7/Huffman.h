@@ -15,7 +15,7 @@
 
 using namespace std;
 
-class CharFreq {
+class  CharFreq {
 public:
     CharFreq() : letter('\0'), frequency(0), encoding("") { }
     CharFreq(unsigned char l, float f) :letter(l), frequency(f), encoding("") { }

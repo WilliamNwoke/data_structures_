@@ -14,6 +14,19 @@ class LinkedList {
 public:
     LinkedList();
     ~LinkedList();
+    LinkedList operator+(const LinkedList<T> &rhs){
+        Node * temp = new Node;
+        temp = head;
+        temp.next = head.next;
+        while(temp != nullptr){
+            temp = temp->next;
+        }
+        temp = rhs.head;
+        temp->next = rhs.head->next;
+        while(temp != nullptr){
+            temp = temp->next;
+        }
+    }
     void appendNode(T);
     std::string to_string() const;
 

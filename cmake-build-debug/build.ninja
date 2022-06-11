@@ -72,11 +72,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_src: phony || CMakeFiles/src.dir
 
-build CMakeFiles/src.dir/lab6/lab6.cpp.o: CXX_COMPILER__src_Debug /Users/admin/Documents/SeattleU/cpsc5005/src/lab6/lab6.cpp || cmake_object_order_depends_target_src
-  DEP_FILE = CMakeFiles/src.dir/lab6/lab6.cpp.o.d
+build CMakeFiles/src.dir/p4x/p4x.cpp.o: CXX_COMPILER__src_Debug /Users/admin/Documents/SeattleU/cpsc5005/src/p4x/p4x.cpp || cmake_object_order_depends_target_src
+  DEP_FILE = CMakeFiles/src.dir/p4x/p4x.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14
   OBJECT_DIR = CMakeFiles/src.dir
-  OBJECT_FILE_DIR = CMakeFiles/src.dir/lab6
+  OBJECT_FILE_DIR = CMakeFiles/src.dir/p4x
 
 
 # =============================================================================
@@ -86,7 +86,7 @@ build CMakeFiles/src.dir/lab6/lab6.cpp.o: CXX_COMPILER__src_Debug /Users/admin/D
 #############################################
 # Link the executable src
 
-build src: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/lab6/lab6.cpp.o
+build src: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/p4x/p4x.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
   OBJECT_DIR = CMakeFiles/src.dir
   POST_BUILD = :

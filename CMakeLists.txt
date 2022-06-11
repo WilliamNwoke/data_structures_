@@ -23,10 +23,15 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(src ice11/FeetInches.cpp ice11/FeetInches.h ice11/ice11.cpp)
 #add_executable(src p2/BSTx.h p2/p2.cpp)
 #add_executable(src p2ex/BSTx.h p2ex/p2x.cpp)
-add_executable(src lab6/HashTable.h lab6/lab6.cpp)
+#add_executable(src lab6/HashTable.h lab6/lab6.cpp)
 #add_executable(src p3/p3.cpp p3/Patient.h p3/PatientPriorityQueue.h)
 #add_executable(src p3x/p3x.cpp p3x/Patient.h p3x/PatientPriorityQueuex.h p3x/testPatient.cpp p3x/testPriorityQueue.cpp)
 #add_executable(src lab7/Huffman.cpp lab7/Huffman.h lab7/lab7.cpp lab7/BST.h)
+#add_executable(src lab7x/huffman.cpp)
+#add_executable(src p4/p4.cpp p4/CommonWordListx.h p4/WordCounterx.h)
+#add_executable(src exam/examrunnner1.cpp)
+#add_executable(src lab4/LinkedList.h lab4/lab4.cpp lab4/test.cpp)
+add_executable(src p4x/p4x.cpp p4x/CommonWordListx.h p4x/WordCounterx.h)
 
 
 #### self study
